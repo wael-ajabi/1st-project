@@ -1,0 +1,180 @@
+#para-1{background-color: lightgreen;
+           width:100%;
+           height: 1000px;
+           border-radius: 10px;
+            
+
+       }
+
+           #para-2{color: darkgreen;
+           	         text-align: center;
+           	         margin-top: 500px;
+           	         font-size: 200pt;
+                     font-size: 4vw;
+                     font-weight: bold;
+           	         
+           	     }
+           	       #container{width: 100%;
+           	                   background-color: #FAE190;
+           	                   width: 70%; 
+           	                    margin-left: auto;
+           	                    margin-right: auto;
+           	                    border-radius: 10px;
+           	                     padding-top: 10px;
+}
+body{background-image:url('https://i.pinimg.com/originals/21/d5/07/21d5077874a94e9a2f44f36c1b0f8680.png');
+     background-repeat:no-repeat;
+     background-size: cover;
+}
+
+header{background-color: black;
+       margin-top: 100px;
+        height: 40px;}
+li{display: inline-block;
+	margin-left: 20%;
+color: white;
+font-size: 20pt;}
+#first_image{width: 100%;
+	         z-index: -10;
+             }
+             #start{background-color: red;
+                   height: 100px;
+                   width: 200px;
+                   position: absolute;
+                   right: 48%;
+                   bottom: 30%;
+                   	         z-index: 99;
+                   	         border: 3px solid #FF0000;
+                   	         font-size: 30pt;
+                   	         color: #7B3C05;
+
+
+                    }
+
+                 #start:hover{background-color: orange;}
+                 
+
+                 #input-div{   text-align: left;
+                           font-size: 30pt; 
+                           display: block;}
+
+
+                           input{height: 40px;}
+                           table{background-color: lightgray;
+                           	width: 90%;
+                           	border:5px solid black;
+                           	border-radius: 10px;
+                           	margin-left: 5%;
+                                  margin-top: 5%;}
+                                  .ss{margin-top: 50px;
+                                  	color: black;
+                           	border:5px solid black;
+
+                  		background-color: lightgray;
+                  		opacity: 1;
+                  		width:60%;
+                  	     height:200px;
+                  	  border-radius: 10px;
+                  	  margin-right: auto;
+                  	  margin-left: auto;
+                  	  font-size: 20pt;}
+                  	  #submit{background-color: red;
+                  	           width: 100px;
+                  	           height:50px;} 
+
+input:focus, textarea:focus {
+    background-color: #FFFF66;
+    border: 1px solid #F47E58;
+}
+                  	                
+li:hover{ background-color: brown;
+               }
+
+               li:visited{background-color: purple;}
+
+
+               #contact{background-image: url(2_akinator-guessing-game.jpg);
+                            background-repeat:no-repeat;
+     background-size: cover;
+               height: 1000px;}
+
+               .social{width: 100px;
+               	display: inline-block;
+               	       position: relative;
+               	       margin: 20px;
+               	       float: right;
+               	       top: 300px;
+               	       right: 50px;
+                       }
+
+
+                       #whatsapp{width: 150px;
+                       	right: 40px;
+                       }
+
+                       #gamestart{background-color: #395f84;
+                                   height: 1000px;}
+
+                                   #thinking{position: relative;
+                                   	left: 5%;
+                                            }
+
+
+
+
+                                            .questions{margin-top: 50px;
+                                  	color: black;
+                           	border:5px solid black;
+
+                  		background-color: lightgray;
+                  		opacity: 1;
+                  		width:60%;
+                  	     height:300px;
+                  	  border-radius: 10px;
+                  	  position: relative;
+                  	  top: 20%;
+                  	  left: 38%;
+                  	  font-size: 15pt;}
+                  	  .response{position: relative;
+                  	  	left: 10%;
+                  	  	bottom: 10px;
+                  	        font-size: 15pt;
+                  	        display: block;
+                  	    }
+                  	  	.circle{transform: scale(2);}
+                  	  	#btn1{ background-color: green;
+                  	  	       width: 100px;
+                  	  	       height: 50px; 
+                  	  	       font-size: 20pt;}  
+                  	  	       #btn2{background-color: red;
+                  	  	       width: 100px;
+                  	  	       height: 50px;   
+                  	  	       font-size: 20pt;
+                  	  	       margin-left: 50px; }
+                  	  	       .btn{
+                  	  	       	margin-left: 20%;
+                  	  	       	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);}
+
+                  	  	       	#btn1:hover{  background-color: #2EE59D;
+                                             box-shadow: 0px 15px 50px rgb(46, 229, 157);
+                                              color: #fff;
+                                              transform: translateY(-7px);}
+
+                                              #btn2:hover{  background-color: #FF1919;
+                                             box-shadow: 0px 15px 50px rgb(255, 0, 0);
+                                              color: #fff;
+                                              transform: translateY(-7px);}
+                                              h1{margin-left: 10px;}
+                  	  	       .images{width: 150px;
+                  	  	               height: 150px;
+                  	  	               border:1px solid black;
+                  	  	              margin-left: 50px;}
+
+
+            
+
+
+
+                 
+
+                   

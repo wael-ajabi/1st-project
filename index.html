@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+		 <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+	<title>c17 Akinator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<div id="container">
+<!-- the home page  -->
+
+		<header>
+			<nav>
+				<ul>
+					<li onclick="home()" style="cursor: pointer;">Home</li>
+					<li onclick="feedback()" style="cursor: pointer;">feedback</li>
+					<li onclick="contact()" style="cursor: pointer;">contact us</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- the home page  -->
+
+		<div id="home-page">
+			<img  src="https://freegameguide.online/wp-content/uploads/2021/08/1629520699_5-hours-Home-Connected-How-to-play-Akinator-with-Alexa.png" id="first_image">
+			        <button id="start" onclick="start()">start</button>
+
+
+		</div>
+
+  
+
+
+<!-- the feedback page  -->
+
+
+
+<div id="feedback">
+	<div id="input-div">
+		<table>
+			<tr>
+	<td>Name:</td>
+	<td><input id="name" type="text" name="Name" placeholder="write your name" ></td>
+</tr>
+<td>adress:</td>
+	<td><input type="text" name="Name" placeholder="write your adress" ></td>
+</tr>
+	<tr>
+	<td>feedback:</td><td><textarea id="a" rows="4" cols="50" placeholder="write your feedback"></textarea></td><td><button id="submit" onclick="add()">submit</button></td>
+
+</tr>
+	</table>
+	<div id="sub">
+	<div class="ss">
+     <h1>@Halim:</h1>
+     <hr>
+     <p>I dont have a problem with this site</p>
+     </div>
+     
+     <div class="ss">
+		<h1>@cyrine:</h1>
+		     <hr>
+     <p>I LL be using this game for every kickoff!! yay</p>
+     </div>
+     <div class="ss">
+		<h1>@dhia:</h1>
+		     <hr>
+     <p>best son ever !</p>
+     </div>
+      <div class="ss">
+		<h1>@achref:</h1>
+		     <hr>
+     <p>i love it! now where is my vape!</p>
+     </div>
+      <div class="ss">
+		<h1>@wala:</h1>
+     <p>my favorite game from now on</p>
+     </div>
+     </div>
+    </div>
+</div>
+
+	
+
+<!-- the contact us page  -->
+<div id="contact">
+
+
+<div>
+	<img class='social' src="580b57fcd9996e24bc43c521.png" style="cursor: pointer;">
+		<img class='social' style="cursor: pointer;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png">
+		<img class='social' id="whatsapp" style="cursor: pointer;" src="https://www.freepnglogos.com/uploads/whatsapp-logo-light-green-png-0.png" >
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+<!-- the game  -->
+<div id="gamestart">
+<div class="questions">
+	<h1>Is the one you are thinking about an instructor ??</h1>
+	<div class="response">
+		<button id="btn1" class="btn" onclick="yes1()">Yes</button>
+		<button id="btn2" class="btn" onclick="no1()">No</button>
+	</div>
+
+</div>
+<img id="thinking" src="1_lTWsQr8phKRUVGMjL7SqGg.jpeg">
+</div>
+</div>
+
+
+
+
+
+
+
+
+	<script> $(document).ready(function () {
+       $("body").append("<p id='first'>Welcome to the c17 akinator game , Have fun</p>")</script>
+ <script src="main.js"></script>
+</body>
+</html>
