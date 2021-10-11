@@ -42,16 +42,17 @@ font-size: 20pt;}
 #first_image{width: 100%;
 	         z-index: -10;
              }
-             #start{background-color: red;
-                   height: 100px;
+             #start{background-color: #00a9e6;
+                   height: 200px;
                    width: 200px;
                    position: absolute;
                    right: 48%;
-                   bottom: 23%;
+                   bottom: 21%;
                    	         z-index: 99;
-                   	         border: 3px solid #FF0000;
+                   	         border: 3px solid lightblue;
                    	         font-size: 30pt;
                    	         color: #7B3C05;
+                   	         border-radius: 1000px;
 
 
                     }
@@ -61,7 +62,8 @@ font-size: 20pt;}
 
                  #input-div{   text-align: left;
                            font-size: 30pt; 
-                           display: block;}
+                           display: block;
+                         }
 
 
                            input{height: 40px;}
@@ -177,7 +179,7 @@ li:hover{ background-color: brown;
 
 
             
-
+#feedback{background-color: #CF9C4E;}
 
 
                  

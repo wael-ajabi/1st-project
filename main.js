@@ -2,16 +2,16 @@
  $("#feedback").hide();
 $("#contact").hide();
 $("#gamestart").hide();
-//$("#container").hide();
-//$("#start").hide();
+$("#container").hide();
+$("#start").hide();
 
-//$('body').append('<div id= "para-1" S><p id= "para-2" >Welcome to the c17 akinator game , Have fun</p></div>' );
-//$("#para-2").hide(4000);
-//$("#para-1").hide(5000);
-//$("#container").show(6000);
+$('body').append('<div id= "para-1" S><p id= "para-2" >Welcome to the c17 akinator game , Have fun</p></div>' );
+$("#para-2").hide(4000);
+$("#para-1").hide(5000);
+$("#container").show(6000);
 
-//$("#para1").remove();
-//$("#start").show(8000);
+$("#para1").remove();
+$("#start").show(10000);
 function feedback() {
  $("#home-page").hide();
   $("#contact").hide();
@@ -52,9 +52,15 @@ function refresh(){
 location.reload();
 
 }
-////instructors
+////instructors/////boys
 // halim
-function yes1(){
+function yes0(){
+   $(".questions").html("");
+   $(".questions").append('<h1>is the instructor a girl ?</h1><br><br><div class="response"><button id="btn1" class="btn" onclick="yesx()">Yes</button><button id="btn2" class="btn" onclick="nox()">No</button></div>')	
+}
+
+
+function nox(){
    $(".questions").html("");
    $(".questions").append('<h1> Does the instructor always have problems?</h1><br><br><div class="response"><button id="btn1" class="btn" onclick="yes12()">Yes</button><button id="btn2" class="btn" onclick="no12()">No</button></div>')	
 }
@@ -73,8 +79,11 @@ function yes13(){
 $("#thinking").attr('src','EDLj6j0U8AADrIM.png');
  $(".questions").html("");
    $(".questions").append('<h1><span>of course its dhia! </h1></span><div class="response"><button id="btn1" class="btn" onclick="refresh()">Restart</button><img class="images" src="https://ca.slack-edge.com/T02E5DNSTR6-U02D92S51SA-af049a06c010-512"></div>')}
-
-	function no13(){
+ function no13(){
+   	$("#thinking").attr('src','EDLj6j0U8AADrIM.png');
+ $(".questions").html("");
+   $(".questions").append('<h1><span> its achref , i knew it </h1></span><div class="response"><button id="btn1" class="btn" onclick="refresh()">Restart</button></div>')}
+	function yesx(){
 	$("#thinking").attr('src','1_lTWsQr8phKRUVGMjL7SqGg.png');
    $(".questions").html("");
    $(".questions").append('<h1> is it someone who loves saying wakey wakey ?</h1><br><br><div class="response"><button id="btn1" class="btn" onclick="yes14()">Yes</button><button id="btn2" class="btn" onclick="no14()">No</button>')	}
@@ -86,18 +95,25 @@ $("#thinking").attr('src','EDLj6j0U8AADrIM.png');
    function no14(){
    	$("#thinking").attr('src','1_lTWsQr8phKRUVGMjL7SqGg.png');
    $(".questions").html("");
-   $(".questions").append('<h1>is it someone who is always looking for his vape?</h1><br><br><div class="response"><button id="btn1" class="btn" onclick="yes15()">Yes</button><button id="btn2" class="btn" onclick="no15()">No</button>')	}
+   $(".questions").append('<h1>is it a girl who is no longer with us ?</h1><br><br><div class="response"><button id="btn1" class="btn" onclick="yes15()">Yes</button><button id="btn2" class="btn" onclick="no15()">No</button>')	}
    function yes15(){
    	$("#thinking").attr('src','EDLj6j0U8AADrIM.png');
  $(".questions").html("");
-   $(".questions").append('<h1><span> its achref , i knew it </h1></span><div class="response"><button id="btn1" class="btn" onclick="refresh()">Restart</button></div>')}
-
-     function no15(){
+   $(".questions").append('<h1><span> its souha , too easy </h1></span><div class="response"><button id="btn1" class="btn" onclick="refresh()">Restart</button></div>')}
+ function no15(){
+   	$("#thinking").attr('src','1_lTWsQr8phKRUVGMjL7SqGg.png');
+   $(".questions").html("");
+   $(".questions").append('<h1>is it someon who is always taking pictures ?</h1><br><br><div class="response"><button id="btn1" class="btn" onclick="yes16()">Yes</button><button id="btn2" class="btn" onclick="no16()">No</button>')	}
+    function yes16(){
+   	$("#thinking").attr('src','EDLj6j0U8AADrIM.png');
+ $(".questions").html("");
+   $(".questions").append('<h1><span>its the best photographer in the world hana , duh</h1></span><div class="response"><button id="btn1" class="btn" onclick="refresh()">Restart</button><img class="images" src="https://ca.slack-edge.com/T02E5DNSTR6-U02DFQSVD3L-350869a9f3f0-512"></div>')}
+     function no16(){
    	$("#thinking").attr('src','EDLj6j0U8AADrIM.png');
  $(".questions").html("");
    $(".questions").append('<h1><span>the best for last! it has to be wala!</h1></span><div class="response"><button id="btn1" class="btn" onclick="refresh()">Restart</button><img class="images" src="https://ca.slack-edge.com/T02E5DNSTR6-U02DCQ9DUCV-3d4aeeb3088c-512"></div>')}
    //////////////////////////////////////////////studentssssss ladies first!
-   function no1(){
+   function no0(){
    	$("#thinking").attr('src','1_lTWsQr8phKRUVGMjL7SqGg.png');
    $(".questions").html("");
    $(".questions").append('<h1>is this person a girl ?</h1><br><br><div class="response"><button id="btn1" class="btn" onclick="yes2()">Yes</button><button id="btn2" class="btn" onclick="no2()">No</button>')	}
@@ -138,3 +154,9 @@ function yes8(){
    	$("#thinking").attr('src','EDLj6j0U8AADrIM.png');
  $(".questions").html("");
    $(".questions").append('<h1><span> it has to be sahar! </h1></span><div class="response"><button id="btn1" class="btn" onclick="refresh()">Restart</button><img class="images" src="https://ca.slack-edge.com/T02E5DNSTR6-U02E5F7A96U-3007546eb85d-512"></div>')}
+   function no2(){
+   	$("#container").hide()
+   	$("body").css('background-image','url("https://arawakwalton.com/wp-content/uploads/2019/12/under-maintenance-scaled-1.jpg")');
+
+
+   }
